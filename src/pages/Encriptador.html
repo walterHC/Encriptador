@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador-Alura</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- IMPORTANDO EL SCRIPT -->
+    <script src="../js/script.js"></script>
+
+    <!-- IMPORTANTO ICONS DE FONTAWASOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- IMPORTANDO FUENTE POPPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="../assets/Logo.svg" alt="">
+        <h1>lura</h1>
+        <span>latam</span>
+    </header>
+    <main>
+        <section>
+            <textarea placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <span>Solo letras minúsculas y sin acentos</span>
+                    </div>
+                    <div>
+                        <label for="clave">Clave Ecriptacion:</label>
+                        <input type="text" name="clave" id="clave">
+                    </div>
+                </div>
+                <div>
+                    <button>Encriptar</button>
+                    <button>Desencriptar</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <textarea></textarea>
+                <button>Copiar</button>
+                <div>
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span>Use esta clave para desencriptar el texto</span>
+                </div>
+                <div>
+                    <label for="clave">Clave Encriptacion:</label>
+                    <input type="text" name="clave" id="clave">
+                    <i class="fa-solid fa-copy"></i>
+                </div>
+            </div>
+            <div>
+                <img src="../assets/Muñeco.png" alt="" srcset="">
+                <p>Ningún mensaje fue encontrado</p>
+                <div>
+                    <h3>Intrucciones</h3>
+                    <ul>
+                        <li>Ingresa el texto que desees encriptar o desencriptar.</li>
+                        <li>En la encriptacion de un mensaje, se tiene como salida el mensaje encriptado y una clave de desencriptacion.</li>
+                        <li>Para la desencriptacion debe ingresar el mensaje encriptado y la clave de desencriptacion.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Created by <span>Walter</span></p>
+        <div>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </footer>
+</body>
+</html>
